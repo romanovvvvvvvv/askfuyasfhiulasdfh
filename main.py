@@ -21,7 +21,7 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 st.markdown("""Let's consider our dataset ->""")
 
 # %% [code] {"execution":{"iopub.status.busy":"2022-12-11T20:26:23.489830Z","iopub.execute_input":"2022-12-11T20:26:23.490509Z","iopub.status.idle":"2022-12-11T20:26:23.553275Z","shell.execute_reply.started":"2022-12-11T20:26:23.490470Z","shell.execute_reply":"2022-12-11T20:26:23.551554Z"}}
-df = pd.read_csv('/kaggle/input/video-game-sales-with-ratings/Video_Games_Sales_as_at_22_Dec_2016.csv')
+df = pd.read_csv('Video_Games_Sales_as_at_22_Dec_2016.csv')
 
 # %% [markdown]
 st.markdown("""Great! Now 'df' variable takes the value of our dataset. Let's get print it out""")
