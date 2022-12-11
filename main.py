@@ -34,7 +34,7 @@ st.markdown("""Let's find out the number of rows and columns, respectively**""")
 
 # %% [code] {"execution":{"iopub.status.busy":"2022-12-11T20:26:23.737949Z","iopub.execute_input":"2022-12-11T20:26:23.738330Z","iopub.status.idle":"2022-12-11T20:26:23.745369Z","shell.execute_reply.started":"2022-12-11T20:26:23.738296Z","shell.execute_reply":"2022-12-11T20:26:23.744310Z"}}
 st.markdown("""rows, columns""")
-df.shape()
+st.markdown("""print(df.shape())""")
 
 # %% [markdown]
 st.markdown("""Using the info() command we can get more detailed information about each column""")
