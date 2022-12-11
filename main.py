@@ -116,7 +116,7 @@ df = df.assign(Other_Sales_ratio=df.Other_Sales / df.Global_Sales)
 df.head(5)
 
 # %% [markdown]
-st.title("DS Vizualisation)
+st.title("DS Vizualisation")
 
 # %% [markdown]
 st.markdown("""After all changes, we have significantly changed our dataset. Let's take a look at it""")
