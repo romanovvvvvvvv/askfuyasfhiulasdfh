@@ -27,7 +27,7 @@ df = pd.read_csv('Video_Games_Sales_as_at_22_Dec_2016.csv')
 st.markdown("""Great! Now 'df' variable takes the value of our dataset. Let's get print it out""")
 
 # %% [code] {"execution":{"iopub.status.busy":"2022-12-11T20:26:23.695077Z","iopub.execute_input":"2022-12-11T20:26:23.695507Z","iopub.status.idle":"2022-12-11T20:26:23.736102Z","shell.execute_reply.started":"2022-12-11T20:26:23.695470Z","shell.execute_reply":"2022-12-11T20:26:23.734637Z"}}
-st.markdown(df)
+st.markdown("""df""")
 
 # %% [markdown]
 st.markdown("""Let's find out the number of rows and columns, respectively**""")
