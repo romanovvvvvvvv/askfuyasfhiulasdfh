@@ -27,14 +27,14 @@ df = pd.read_csv('Video_Games_Sales_as_at_22_Dec_2016.csv')
 st.markdown("""Great! Now 'df' variable takes the value of our dataset. Let's get print it out""")
 
 # %% [code] {"execution":{"iopub.status.busy":"2022-12-11T20:26:23.695077Z","iopub.execute_input":"2022-12-11T20:26:23.695507Z","iopub.status.idle":"2022-12-11T20:26:23.736102Z","shell.execute_reply.started":"2022-12-11T20:26:23.695470Z","shell.execute_reply":"2022-12-11T20:26:23.734637Z"}}
-st.markdown("""df""")
+st.write(df)
 
 # %% [markdown]
 st.markdown("""Let's find out the number of rows and columns, respectively**""")
 
 # %% [code] {"execution":{"iopub.status.busy":"2022-12-11T20:26:23.737949Z","iopub.execute_input":"2022-12-11T20:26:23.738330Z","iopub.status.idle":"2022-12-11T20:26:23.745369Z","shell.execute_reply.started":"2022-12-11T20:26:23.738296Z","shell.execute_reply":"2022-12-11T20:26:23.744310Z"}}
 st.markdown("""rows, columns""")
-st.markdown("""print(df.shape())""")
+st.write(data.shape)
 
 # %% [markdown]
 st.markdown("""Using the info() command we can get more detailed information about each column""")
